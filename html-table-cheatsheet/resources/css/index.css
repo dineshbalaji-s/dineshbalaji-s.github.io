@@ -40,3 +40,8 @@ tbody td {
     border-radius: 5px;
     font-size: 20px;
 }
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
