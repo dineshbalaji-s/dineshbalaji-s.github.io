@@ -1,0 +1,112 @@
+html {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+/* Nav Bar */
+
+nav {
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px 0px 0px 10px;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+}
+nav li {
+    display: inline-block;
+    padding-right: 15px;
+}
+.logo {
+    height: 50px;
+}
+
+li a {
+    color: white;
+}
+
+/* Main Content */
+
+.landing-content {
+    margin-top: 69px;
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission {
+    text-align: center;
+    width: 1200px;
+    background-color: black;
+    color: white;
+}
+
+/* Specials Part */
+
+.card img {
+    height: 200px;
+}
+
+.card h3 {
+    margin-top: 0px;
+}
+
+.teas {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.specials {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+}
+
+/* Locations */
+.locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+.address {
+    display: inline-flex;
+}
+.address-card {
+    width: 300px;
+    background-color: black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Contact */
+
+.contact {
+    height: 200px;
+}
+
+/* Footer */
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
