@@ -1,0 +1,99 @@
+html {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    padding: 0px 35px 0px 0px;
+}
+
+nav {
+    padding: 5px 10px;
+    background-image: -webkit-linear-gradient(45deg, #ff006e 38%, #fb5607 62%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+
+.title {
+    margin-top: 66px;
+    height: 650px;
+    align-content: center;
+    background-image: url("../images/gabin-vallet.jpg");
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+.title .small {
+    margin: 0px 0px 0px 160px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: white;
+    background-image: -webkit-linear-gradient(45deg, #ff006e 38%, #fb5607 62%);
+    width: 250px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.title .huge {
+    font-size: 12rem;
+    margin: 0;
+    line-height: 0.6;
+    text-shadow: 1px 2px 1px -webkit-linear-gradient(45deg, #ff006e 38%, #fb5607
+                62%);
+    color: white;
+    padding-left: 30px;
+}
+.info {
+    padding: 60px auto;
+    height: 300px;
+    align-content: center;
+    background-image: url("../images/jean-philippe-delberghe.jpg");
+    background-size: cover;
+}
+.info p {
+    text-align: center;
+    line-height: 0.7;
+    font-weight: 500;
+}
+.large-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+.large-info h2 {
+    font-size: 3rem;
+    margin: 0;
+
+    /** TEXT GRADIENT */
+    color: #f2f5f7;
+    /* background-image: -webkit-linear-gradient(45deg, #38a3a5 38%, #22577a 62%); */
+    background-image: -webkit-linear-gradient(45deg, #ff006e 38%, #fb5607 62%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 3 30%;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.gallery img {
+    min-width: 100px;
+    margin: 5px;
+}
